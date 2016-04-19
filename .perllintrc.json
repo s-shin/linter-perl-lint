@@ -1,0 +1,6 @@
+{
+  "ignore": [
+    "Modules::RequireVersionVar"
+  ],
+  "filter": []
+}

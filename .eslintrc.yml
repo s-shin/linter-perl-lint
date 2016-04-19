@@ -1,0 +1,13 @@
+---
+env:
+  node: true
+  es6: true
+globals:
+  atom: true
+parserOptions:
+  sourceType: module
+extends:
+  - "eslint:recommended"
+rules:
+  quotes: [error, double, {avoidEscape: true, allowTemplateLiterals: true}]
+  no-unused-vars: [error, {args: none}]

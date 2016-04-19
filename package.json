@@ -1,0 +1,32 @@
+{
+  "name": "linter-perl-lint",
+  "main": "./lib/linter-perl-lint",
+  "version": "0.0.0",
+  "description": "Lint perl on the fly, using Perl::Lint",
+  "keywords": [],
+  "activationCommands": {},
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "repository": "https://github.com/s-shin/linter-perl-lint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "co": "^4.6.0",
+    "dedent": "^0.6.0",
+    "shell-escape": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0"
+  }
+}
