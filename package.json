@@ -1,7 +1,7 @@
 {
   "name": "linter-perl-lint",
   "main": "./lib/linter-perl-lint",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lint perl on the fly, using Perl::Lint",
   "keywords": [],
   "activationCommands": {},
